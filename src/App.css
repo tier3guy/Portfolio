@@ -263,6 +263,7 @@ body{
 }
 .blogs-image-wrapper{
   margin-right: 2em;
+  margin-top: 3em;
 }
 .h1-blogs{
   margin-bottom: 1.5em;
@@ -272,5 +273,41 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.blogs-welcome-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog-conatiner{
+  width: 100%;
+  border: 8px solid var(--main);
+  min-height: 70vh;
+  border-radius: 15px;
+  margin: 5em 0;
+  padding: 20px;
+}
+.author{
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+.date{
+  margin-top: 10px;
+}
+.blog-text{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.h1-bloger{
+  margin-bottom: 20px;
+}
+.blogImage{
+  height: 100%;
+  width: 100%;
+}
+.blog-content{
+  width: 50%;
 }
 /*-----------------------------------------*/
