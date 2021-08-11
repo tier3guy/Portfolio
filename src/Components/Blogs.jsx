@@ -1,5 +1,6 @@
 import logo from '../Assets/icon.svg';
 import code from '../Assets/code.svg';
+import { Link } from 'react-router-dom';
 
 export default function Blogs(){
   return (
@@ -15,7 +16,7 @@ export default function Blogs(){
       </div>
       <div className = "nav-items">
         <ul>
-          <li className = "nav-item" id = "home"><a href = "#hero" className = "back-botton"><span className = "left-arrow">←</span>Go to Home</a></li>
+          <Link style = {{textDecoration:'none'}} to = '/' className = "nav-item" id = "home"><a className = "back-botton"><span className = "left-arrow">←</span>Go to Home</a></Link>
         </ul>
       </div>
     </div>
