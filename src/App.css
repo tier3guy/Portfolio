@@ -241,3 +241,36 @@ body{
   color: rgba(255, 0, 0, 0.7);
 }
 /*-----------------------------------------*/
+
+/*-------------Blog------------------------*/
+.left-arrow{
+  font-size: 1.5em;
+  margin-right: 0.3em;
+}
+.back-botton{
+  display: flex;
+  align-items: center;
+}
+.blogs-wrapper{
+  width: 80vw;
+  margin: auto;
+  min-height: 100vh;
+  padding-top: 15vh;
+}
+.blogs-welcome-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.blogs-image-wrapper{
+  margin-right: 2em;
+}
+.h1-blogs{
+  margin-bottom: 1.5em;
+  font-size: 2.5em;
+}
+.blogs-text-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*-----------------------------------------*/
