@@ -4,8 +4,13 @@ import { Link } from 'react-router-dom';
 import Blog_Array from '../Data/Blog';
 import BlogContainer from './BlogContainer.jsx';
 import Footer from "./Footer";
+import { useEffect } from 'react';
 
 export default function Blogs(){
+  useEffect(() => {
+    window.scrollTo(0,0);
+  },[])
+
   return (
     <>
     <div className = "navbar-wrapper">
