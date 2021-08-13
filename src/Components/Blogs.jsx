@@ -45,7 +45,7 @@ export default function Blogs(){
           date = "13th August 2021"
           blog = "Hack with Infy is coding competition for engineering 3rd year students. It was started in 2019. Initially it was of three round competition in which first two rounds were coding competition and third round would be an Hackothon with top 100 coders around the country. The winner used to get a pool prize of 2lakhs INR, the first runner-up used get 1lakh INR and the second runner-up would get 50,000 INR. But from 2021(this year), only two rounds are going to happen, first would be coding roung and second would be hackothon. HackwithInfy also hiers students for jobs. Basically they hiers for 2 roles and they are system engineer(4-5 LPA) and power programmer(8-8.5 LPA). In their coding round they ask 3 question (1-Easy, 1-Medium and 1-Hard)."
           author = "Avinash Gupta"
-          src = "../Assets/hwic.png"/>
+          src = "https://media.glassdoor.com/l/f5/e9/69/4c/as-part-of-hackwithinfy-2019-grand-finale-infoscion-shows-a-demo-of-the.jpg"/>
         <BlogContainer 
           tittle = "Github Campus Expert"
           date = "11th August 2021"

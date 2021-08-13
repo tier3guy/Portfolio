@@ -308,7 +308,10 @@ body{
   width: 100%;
 }
 .blog-content{
-  width: 50%;
+  width: 45%;
+}
+.blog-content-image-wrapper{
+  width: 45% ;
 }
 /*-----------------------------------------*/
 
