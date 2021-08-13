@@ -1,4 +1,3 @@
-import GhE from '../Assets/Github-expert.png'
 
 export  default function BlogContainer(props){
   return(
@@ -11,7 +10,7 @@ export  default function BlogContainer(props){
             <h3>{props.blog}</h3>
           </div>
           <div className = "blog-content-image-wrapper">
-            <img src = {GhE} className = "blogImage"/>
+            <img src = {props.src} className = "blogImage"/>
           </div>
         </div>
         <div className = "author">Author : {props.author}</div>
