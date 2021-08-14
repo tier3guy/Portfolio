@@ -1,7 +1,6 @@
 import logo from '../Assets/icon.svg';
 import code from '../Assets/code.svg';
 import { Link } from 'react-router-dom';
-import Blog_Array from '../Data/Blog';
 import BlogContainer from './BlogContainer.jsx';
 import Footer from "./Footer";
 import { useEffect } from 'react';
@@ -28,7 +27,7 @@ export default function Blogs(){
         </ul>
       </div>
     </div>
-    <div className = "blogs-wrapper">
+    <div className = "blogs-wrapper" data-aos = "fade-right">
       <div className= "blogs-welcome-wrapper">
         <div className = "blogs-image-wrapper">
           <img src = {code} className = "blogs-image"/>

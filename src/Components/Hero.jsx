@@ -4,7 +4,7 @@ import Hero_image from '../Assets/hero_Image.svg'
 export default function Hero(){
   return(
     <>
-      <div className = "hero-wrapper" id = "hero">
+      <div className = "hero-wrapper" id = "hero" data-aos = "fade-right">
         <div className = "hero-img-wrapper">
           <img src = {Hero_image} className = "hero-img"/>
         </div>

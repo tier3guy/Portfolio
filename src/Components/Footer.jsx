@@ -3,7 +3,7 @@ import Arrow from '../Assets/arrow.svg'
 export default function Footer(){
   return (
     <>
-      <div className = "footer-wrapper">
+      <div className = "footer-wrapper" data-aos = "zoom-in">
         <div className = "connect">
           <div className = "connect-image-wrapper">
             <img src = {bg} className = "connect-image"/>

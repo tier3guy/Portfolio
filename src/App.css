@@ -27,12 +27,13 @@ html{
 
 body{
   background-color: var(--dark);
+  border-bottom: 5px solid var(--lighter);
 }
 
 /*-------------Styling Navbar--------------*/
 
 .navbar-wrapper{
-  border-top: 4px solid var(--lighter);
+  border-top: 5px solid var(--lighter);
   background-color: var(--dark);
   position: fixed;
   width: 100vw;
@@ -191,7 +192,6 @@ body{
 .footer-wrapper{
   flex-direction: column;
   padding-bottom: 10px;
-  border-bottom: 4px solid var(--lighter);
   width: 100vw;
 }
 .connect{
