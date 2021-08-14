@@ -1,7 +1,7 @@
 export  default function BlogContainer(props){
   return(
     <>
-      <div className = "blog-conatiner" data-aos="fade-left">
+      <div className = "blog-conatiner" data-aos="fade-up">
         <div className = "author date">Date ~ {props.date}</div>
         <div className = "blog-text">
           <div className = "blog-content">
