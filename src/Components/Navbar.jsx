@@ -2,10 +2,17 @@ import logo from '../Assets/icon.svg';
 import { Link } from 'react-router-dom';
 
 export default function Navbar(){
+  
+  const [active,setActive] = useState(false);
+
+  const scrolling = () => {
+    if(window.scrollY > 0) setActive(true);
+    else setActive(false);
+  }
 
   return (
     <>
-    <div className = "navbar-wrapper">
+    <div className = {(active) ? "navbar-wrapper scrolling_effect" : "navbar-wrapper"}>
       <div className = "logo">
         <div className = "logo-image">
           <img src = {logo} className = "logo-svg"/>
