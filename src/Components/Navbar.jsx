@@ -10,6 +10,8 @@ export default function Navbar(){
     else setActive(false);
   }
 
+  window.addEventListener('scroll',scrolling);
+
   return (
     <>
     <div className = {(active) ? "navbar-wrapper scrolling_effect" : "navbar-wrapper"}>
