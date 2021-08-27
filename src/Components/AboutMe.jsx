@@ -1,9 +1,12 @@
 import About_Image from '../Assets/about.svg'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 
 export default function About(){
   return(
     <>
-      <div className = "about-wrapper" id = "about" data-aos = "fade-left">
+      <div className = "about-wrapper" id = "about">
         <div className = "about-text-wrapper">
           <h1 className = "h1">Who am I?</h1>
           <div className = "section">

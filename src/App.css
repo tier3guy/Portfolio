@@ -45,7 +45,7 @@ body{
 }
 
 .scrolling_effect{
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.356) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .logo-svg{
@@ -194,9 +194,10 @@ body{
 /*-----------------------------------------*/
 
 /*-------------Footer ---------------------*/
+
 .footer-wrapper{
   flex-direction: column;
-  padding-bottom: 10px;
+  padding-bottom: 3em;
   width: 100vw;
 }
 .connect{

@@ -1,5 +1,10 @@
 import Hero_image from '../Assets/hero_Image.svg'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init({
+  offset: 600,
+  duration: 1000,
+});
 
 export default function Hero(){
   return(
