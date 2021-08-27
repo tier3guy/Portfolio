@@ -9,6 +9,9 @@ export default function Blogs(){
   useEffect(() => {
     window.scrollTo(0,0);
   },[])
+  
+  let daos = "";
+  if(window.screen.width > 500) daos = "fade-right";
 
   return (
     <>
@@ -27,7 +30,7 @@ export default function Blogs(){
         </ul>
       </div>
     </div>
-    <div className = "blogs-wrapper" data-aos = "fade-right">
+    <div className = "blogs-wrapper" data-aos = {daos}>
       <div className= "blogs-welcome-wrapper">
         <div className = "blogs-image-wrapper">
           <img src = {code} className = "blogs-image"/>

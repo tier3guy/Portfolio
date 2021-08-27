@@ -5,11 +5,13 @@ AOS.init({
   offset: 600,
   duration: 1000,
 });
+let daos = "";
+if(window.screen.width > 500) daos = "fade-right";
 
 export default function Hero(){
   return(
     <>
-      <div className = "hero-wrapper" id = "hero" data-aos = "fade-right">
+      <div className = "hero-wrapper" id = "hero" data-aos = {daos}>
         <div className = "hero-img-wrapper">
           <img src = {Hero_image} className = "hero-img"/>
         </div>

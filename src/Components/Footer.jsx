@@ -1,6 +1,7 @@
 import bg from '../Assets/background.svg';
 import Arrow from '../Assets/arrow.svg'
 export default function Footer(){
+
   return (
     <>
       <div className = "footer-wrapper" data-aos = "zoom-in" id="contact">

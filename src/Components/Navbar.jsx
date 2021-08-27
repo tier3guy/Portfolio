@@ -20,6 +20,7 @@ export default function Navbar(){
     (ham) ? menu.style.display = "block" : menu.style.display = "none";
   }
 
+
   return (
     <>
     <div className = {(active) ? "navbar-wrapper scrolling_effect" : "navbar-wrapper"}>

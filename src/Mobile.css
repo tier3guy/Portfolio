@@ -122,4 +122,20 @@
   .flip-card-front, .flip-card-back{
     font-size: larger;
   }
+
+  .bloogerssss{
+    flex-direction: row;
+  }
+  .blogger_nav{
+    padding: auto;
+  }
+  .blogs-image{
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .blogs-image-wrapper{
+    display: flex;
+    align-items: center;
+  }
 }
