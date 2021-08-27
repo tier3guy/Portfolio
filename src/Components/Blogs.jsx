@@ -12,18 +12,18 @@ export default function Blogs(){
 
   return (
     <>
-    <div className = "navbar-wrapper">
-      <div className = "logo">
+    <div className = "navbar-wrapper ">
+      <div className = "logo bloogerssss">
         <div className = "logo-image">
           <img src = {logo} className = "logo-svg"/>
         </div>
-        <div className = "logo-text">
+        <div className = "logo-text ">
           Avinash Gupta
         </div>
       </div>
-      <div className = "nav-items">
+      <div className = "nav-items blogger_nav">
         <ul>
-          <Link style = {{textDecoration:'none'}} to = '/' className = "nav-item" id = "home"><a className = "back-botton"><span className = "left-arrow">←</span>Go to Home</a></Link>
+          <Link style = {{textDecoration:'none'}} to = '/' className = "nav-item blog-nav-item" id = "home"><a className = "back-botton"><span className = "left-arrow">←</span>Go to Home</a></Link>
         </ul>
       </div>
     </div>

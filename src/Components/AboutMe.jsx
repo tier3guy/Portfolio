@@ -18,7 +18,7 @@ export default function About(){
 
         </div>
         <div className = "about-img-wrapper">
-          <img src = {About_Image}/>
+          <img src = {About_Image} id="me"/>
         </div>
       </div>
     </>

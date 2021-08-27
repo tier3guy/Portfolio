@@ -1,6 +1,6 @@
 import logo from '../Assets/icon.svg';
 import { Link } from 'react-router-dom';
-import {useState} from 'react';
+import {useState,useEffect} from 'react';
 
 export default function Navbar(){
   
@@ -10,18 +10,15 @@ export default function Navbar(){
     if(window.scrollY > 0) setActive(true);
     else setActive(false);
   }
-
   window.addEventListener('scroll',scrolling);
 
-  const [navActive,setnavActive] = useState(false);
-  const menu = document.getElementById('menu');
-
-  const activateNav = () => {
-    (navActive) ? setnavActive(false) : setnavActive(true);
-    (navActive) ? menu.style.display = "block" : menu.style.display = "none";
+  const [ham,setHam] = useState(false);
+  const toggler = () => {
+    const menu = document.getElementById("menu");
+  
+    setHam(!ham);
+    (ham) ? menu.style.display = "block" : menu.style.display = "none";
   }
-
-  if(window.screen > 900) menu.style.display = "block";
 
   return (
     <>
@@ -44,7 +41,11 @@ export default function Navbar(){
           <li className = "nav-item"><a href = "https://drive.google.com/file/d/1_s2iWXLaH6Uk7YFsqVuD8ggbJ7ruHsBR/view?usp=sharing">Resume</a></li>
         </ul>
       </div>
-      <div className="drop-down" id="down_town"><button onClick = {activateNav}><i class={(navActive) ? "fas fa-chevron-up" : "fas fa-chevron-down"}></i></button></div>
+      <div 
+        className="drop-down"
+        id="down_town"><button 
+        onClick = {toggler}
+        ><i class={(ham) ? "fas fa-chevron-up" : "fas fa-chevron-down"}></i></button></div>
     </div>
 
     </>

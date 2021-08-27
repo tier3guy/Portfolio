@@ -1,7 +1,6 @@
 @media only screen and (max-width: 900px) {
   .drop-down{
-    display: block;
-    
+    display: block; 
   }
   .drop-down button{
     background: transparent;
@@ -15,7 +14,7 @@
 
   .nav-items ul{
     opacity: 0.9;
-    position: fixed;
+    position: absolute;
     left: 0%;
     width: 100vw;
     flex-direction: column;
@@ -29,4 +28,71 @@
   .nav-item{
     margin-bottom: 15px;
   }
+
+
+
+
+
+
+
+  .hero-wrapper, .about-wrapper , .projects-card-wrapper , .connect ,.blogs-welcome-wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-img{
+    width: 70vw;
+  } 
+  .hero-text-wrapper{
+    width: 90vw;
+  }
+  #me{
+    width: 90vw;
+    margin-top: 4em;
+  }
+  .cards_wrapper{
+    margin-bottom: 2.5em;
+  }
+  #proj h1{
+    font-size: 3em;
+  }
+  .connect{
+    padding-left: 0;
+  }
+  .connect-text-wrapper{
+    width: 80vw;
+  }
+  .connect-image{
+    margin-right: 2em;
+    width: 80vw;
+  }
+  .connect-text-wrapper h3{
+    width: 80vw;
+    margin-top: 2em;
+    margin-left: 0em;
+  }
+  .connect-image{
+    margin-right: 0em;
+  }
+
+
+
+  .bloogerssss{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .blogger_nav{
+    opacity: 1;
+  }
+  .blog-text{
+    flex-direction: column;
+  }
+  .blog-content{
+    width: 100%;
+  }
+  .blog-content-image-wrapper{
+    margin-top: 3em;
+    width: 100%;
+  }
+ 
 }
