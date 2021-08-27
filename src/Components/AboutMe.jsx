@@ -1,7 +1,4 @@
 import About_Image from '../Assets/about.svg'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-
 
 export default function About(){
   return(
