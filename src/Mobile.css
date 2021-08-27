@@ -10,8 +10,11 @@
   }
   .navbar-wrapper{
     padding: 1em 2.5em;
+    width: 100vw;
   }
-
+  .logo-text{
+    font-size: 1.5em;
+  }
   .nav-items ul{
     opacity: 0.9;
     position: absolute;
@@ -43,7 +46,7 @@
     width: 70vw;
   } 
   .hero-text-wrapper{
-    width: 90vw;
+    width: 80vw;
   }
   #me{
     width: 90vw;
@@ -95,4 +98,28 @@
     width: 100%;
   }
  
+}
+
+@media only screen and (max-width: 400px) {
+  .flip-card{
+    width: 80vw;
+  }
+  .logo-text{
+    font-size: 1.2em;
+  }
+  .hero-text-wrapper{
+    width: 80vw;
+    margin: auto;
+  }
+  .hero-text-wrapper h1{
+    font-size: 3em;
+  }
+  .hero-text-wrapper h2{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .flip-card-front, .flip-card-back{
+    font-size: larger;
+  }
 }

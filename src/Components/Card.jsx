@@ -1,7 +1,7 @@
 export default function Card(props){
   return(
     <>
-    <div class="flip-card cards_wrapper">
+    <div className="flip-card cards_wrapper">
       <div className="flip-card-inner">
         <div className="flip-card-front">
           {

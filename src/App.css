@@ -157,7 +157,7 @@ body{
 }
 .flip-card {
   background-color: transparent;
-  min-width: 350px;
+  width: 350px;
   height: 200px;
   perspective: 1000px;
 }
