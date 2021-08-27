@@ -13,6 +13,16 @@ export default function Navbar(){
 
   window.addEventListener('scroll',scrolling);
 
+  const [navActive,setnavActive] = useState(false);
+  const menu = document.getElementById('menu');
+
+  const activateNav = () => {
+    (navActive) ? setnavActive(false) : setnavActive(true);
+    (navActive) ? menu.style.display = "block" : menu.style.display = "none";
+  }
+
+  if(window.screen > 900) menu.style.display = "block";
+
   return (
     <>
     <div className = {(active) ? "navbar-wrapper scrolling_effect" : "navbar-wrapper"}>
@@ -24,7 +34,7 @@ export default function Navbar(){
           Avinash Gupta.
         </div>
       </div>
-      <div className = "nav-items">
+      <div className = "nav-items" id ="menu">
         <ul>
           <li className = "nav-item" id = "home"><a href = "#hero">Home</a></li>
           <li className = "nav-item" id = "abouts"><a href = "#about">About Me</a></li>
@@ -34,7 +44,9 @@ export default function Navbar(){
           <li className = "nav-item"><a href = "https://drive.google.com/file/d/1_s2iWXLaH6Uk7YFsqVuD8ggbJ7ruHsBR/view?usp=sharing">Resume</a></li>
         </ul>
       </div>
+      <div className="drop-down" id="down_town"><button onClick = {activateNav}><i class={(navActive) ? "fas fa-chevron-up" : "fas fa-chevron-down"}></i></button></div>
     </div>
+
     </>
   );
 }

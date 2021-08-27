@@ -31,7 +31,9 @@ body{
 }
 
 /*-------------Styling Navbar--------------*/
-
+.drop-down{
+  display: none;
+}
 .navbar-wrapper{
   border-top: 5px solid var(--lighter);
   background-color: var(--dark);

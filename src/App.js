@@ -1,4 +1,5 @@
 import './App.css';
+import './Mobile.css';
 import Blogs from './Components/Blogs';
 import Home from './Components/Home';
 import { BrowserRouter,Route,Switch } from "react-router-dom";
