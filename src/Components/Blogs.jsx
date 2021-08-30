@@ -42,6 +42,14 @@ export default function Blogs(){
         </div>
       </div>
       <div className = "blog-container-wrapper">
+        <BlogContainer
+          date = "30th August 2021"
+          tittle = "Girlscript summer of code"
+          blog = "GirlScript Summer of Code is the 3 month long Open Source program during summers conducted by GirlScript Foundation, started in 2018, with an aim to help beginners get started with Open Source Development while encouraging diversity.Throughout the program participants contribute to different projects under guidance of experienced mentors. Top participants get exciting goodies and opportunities.There are two types of envolvement here - 1. Participant, 2. Mentor. Unlike name suggesting here ‘Girlscript’. It seems that it’s particularly for girls, but it’s not. It’s for every gender. If you have basic git skills or are first timers or even veteran developers, GirlScript Summer of Code would give you a taste of contributing in a long open source projects. Continuously for 3 months you will contribute to your assigned projects under guidance of experienced mentors. Register yourself as a participant for GSSoc 2021 here. Website Link: https://gssoc.girlscript.tech/"
+          author = "Kamya Kumari | GWoC Contributor"
+          src = "https://gssoc.girlscript.tech/images/favicon/favicon.png"
+          profileLink = "https://www.linkedin.com/in/kamya-kumari-ba5324205/"
+        />
         <BlogContainer 
           tittle = "Hack With Infy"
           date = "13th August 2021"

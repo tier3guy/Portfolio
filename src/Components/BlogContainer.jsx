@@ -1,7 +1,7 @@
 export  default function BlogContainer(props){
   return(
     <>
-      <div className = "blog-conatiner" data-aos="fade-up">
+      <div className = "blog-conatiner">
         <div className = "author date">Date ~ {props.date}</div>
         <div className = "blog-text">
           <div className = "blog-content">
@@ -12,7 +12,7 @@ export  default function BlogContainer(props){
             <img src = {props.src} className = "blogImage"/>
           </div>
         </div>
-        <div className = "author">Author : {props.author}</div>
+        <div className = "author">Author : <a href = {props.profileLink}>{props.author}</a></div>
       </div>
     </>
   );
